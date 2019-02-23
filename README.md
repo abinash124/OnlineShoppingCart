@@ -21,8 +21,8 @@ To run the Node application locally in your machine:
 - [mongoose](https://github.com/Automattic/mongoose) - For modeling and mapping MongoDB data to javascript 
 - [mongoose-unique-validator](https://github.com/blakehaswell/mongoose-unique-validator) - For handling unique validation errors in Mongoose.
 - [passport](https://github.com/jaredhanson/passport) - For handling user authentication
-- [stripejs] (https://stripe.com/docs/stripe-js/) - For handling credit card transaction securely.
-
+- [stripe](https://stripe.com/docs/stripe-js/) - For handling credit card transaction securely.
+- [csurf](https://github.com/expressjs/csurf) - Middleware for validating user session and securely by creating a CSRF token.
 ## Application skeleton
 
 - `app.js` - The index entry point of the application. This file defines our express server and connects it to MongoDB using mongoose. It also requires the routes and models we'll be using in the application.
