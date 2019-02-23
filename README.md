@@ -30,7 +30,7 @@ To run the Node application locally in your machine:
 - `routes/` - This folder contains definition of route functions for different HTTP requests.
 - `models/` - These folder contains schema definition for mongodb database.
 - `public/` - This folder contains  javascripts and css for the checkout.
-
+- `views/`  - This folder contains all the HTML template handlebar to construct front-end.
 
 ## Authentication and security
 
