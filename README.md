@@ -6,7 +6,7 @@
 To run the Node application locally in your machine: 
 
 - Clone the repository.
-- Install the require dependencies - `npm install` 
+- Install all the required dependencies - `npm install` 
 - Install MongoDB Community Edition ([instructions](https://docs.mongodb.com/manual/installation/#tutorials)) and run it by executing `mongod`
 - `npm run dev` to start the local server
 
